@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'vazir';
+    src: local('vazir'), url(../fonts/vazir.ttf) format('truetype');
+}
+
+*{
+    font-family: 'vazir' !important;
+}
+
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'vazir';
+ 
+}
+input button{
+    font-family: 'vazir';
+
+}
+.pplk{
+    width: 100%;
+display: flex;
+z-index: 1100;
+box-sizing: border-box;
+flex-shrink: 0;
+flex-direction: column;
+position: inherit;
+}
